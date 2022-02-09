@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato';
+}
+
+.container {
+    display: block;
+    width: 1110px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-header {
+   background-image: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%),url(images/Wallpaper.png);
+   height: 782px;
+}
+
+.logo {
+    margin: 44.8px 9.9px 0 166.5px;
+}
+
+.cloud {
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 43px 164px 0 0;
+}
+
+.navigation-links {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    line-height: 17px; 
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none; 
+    margin-right: 11px;
+    text-align: center; 
+    margin-top: 45px; 
+}
+
+.navigation-links:last-child {
+    margin-right: 0;
+}
+
+.login {
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 12px 29px 12px 28px;
+    background-color: transparent;
+    margin: 33px 0 0 234px;
+}
+
+.logo-left {
+    float: left;
+}
+
+.nav-left {
+    float: left;
+}
+
+.login-right {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.title {
+    font-size: 72px;
+    line-height: 86px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.sale {
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    width: 540px;
+}
+
+.sign-up {
+    background: #FFFFFF;
+    border-radius: 6px; 
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #ED4C5C;
+    padding: 17px 53px 17px 52px;
+}
